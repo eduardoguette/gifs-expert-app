@@ -17,11 +17,13 @@ export default function AddCategory({ setCategories }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-96">
+    <form onSubmit={handleSubmit} className="w-full max-w-full">
       <input
         type="text"
         aria-label="Buscar gif"
-        className="border w-full my-1  ring outline-none  ring-gray-300 focus:ring focus:ring-purple-500 p-2"
+        placeholder="Search all the GIFs"
+        className="border 
+        w-full  ring outline-none  ring-gray-300 focus:ring focus:ring-purple-500 p-2 mt-5 mb-2"
         value={inputValue}
         onChange={handleInputChange}
       />

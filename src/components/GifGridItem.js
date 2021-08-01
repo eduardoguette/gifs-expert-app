@@ -2,7 +2,7 @@ import React from "react";
 
 export const GifGridItem = ({ id, title, url }) => {
   return (
-    <article className="card flex-col flex-grow relative max-w-max">
+    <article className="card flex-col flex-grow relative max-w-max animate__animated  animate__fadeInUp animate__faster">
       <picture>
         <img
           src={url}
